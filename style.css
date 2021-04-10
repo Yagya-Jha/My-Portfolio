@@ -1,0 +1,110 @@
+h1{
+    background-color: rgb(255, 22, 138);
+    color:rgb(158, 182, 255);
+    text-align: center;
+    padding-right: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch:wider;
+}
+
+h2{
+   background-color: chartreuse;
+   font-size: 20px;
+}
+
+p,h2{
+    text-align: center;
+    color: darkblue;
+ }
+ 
+
+.header{
+    background-color: rgb(255, 22, 138);
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu{
+    background-color:rgb(255, 22, 138);;
+    margin-right: 20px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+body{
+    background-color: rgba(208, 255, 0, 0.774);
+}
+a:link{
+    color: rgb(208, 255, 0);
+    font-family: cursive;
+}
+
+a:visited{
+    color: seashell;
+    font-family: cursive;
+}
+
+.item{
+    position: relative;
+}
+.item p {
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   transform:translate(-20%,-25%);
+   opacity: 0;
+}
+
+.item:hover p{
+   opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.3;
+ }
+
+ul.a{
+    list-style-type:circle;
+}
+.a:hover{
+    color: crimson;
+}
+ul.b{
+    list-style-type:square;
+}
+.b:hover{
+    color: crimson;
+}
+ol.c{
+    list-style-type:lower-latin;
+}
+.c:hover{
+    color: crimson;
+}
+ol.d{
+    list-style-type:upper-roman;
+}
+.d:hover{
+    color: crimson;
+}
+h3{
+    color: darkblue;
+}
+
+h3:hover{
+    color:crimson;   
+}
